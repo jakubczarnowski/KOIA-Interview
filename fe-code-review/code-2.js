@@ -1,3 +1,4 @@
+// Version: 1
 app.post('/api/extract', upload.single('file'), async (req, res) => {
     logInfo('POST /api/extract',req.body);
     logInfo('FILE=',req.file);
