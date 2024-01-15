@@ -1,28 +1,5 @@
-import {
-  Autocomplete,
-  Box,
-  Button,
-  CircularProgress,
-  Container,
-  FormControl,
-  FormGroup,
-  FormLabel,
-  InputLabel,
-  MenuItem,
-  Select,
-  Skeleton,
-  TextField,
-  Typography,
-} from "@mui/material";
-import { LineChart, SparkLineChart } from "@mui/x-charts";
-import { zodResolver } from "@hookform/resolvers/zod";
-import {
-  PropertyType,
-  propertiesNameMap,
-  useSquareMetersData,
-} from "./hooks/useSquareMetersData";
-import { Controller, useForm } from "react-hook-form";
-import { z } from "zod";
+import { Box, CircularProgress, Container, Typography } from "@mui/material";
+import { PropertyType, useSquareMetersData } from "./hooks/useSquareMetersData";
 import { useMemo, useState } from "react";
 import {
   generateQuarters,
@@ -36,7 +13,6 @@ import {
   CategoryScale,
   Legend,
   LinearScale,
-  Title,
   Chart,
   Tooltip,
 } from "chart.js";
