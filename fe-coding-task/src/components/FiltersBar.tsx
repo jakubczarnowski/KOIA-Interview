@@ -66,7 +66,7 @@ export const FiltersBar = ({
       generateQuarters({
         startDate: new Date(MIN_START_YEAR, 1),
         endDate: new Date(),
-      }),
+      }).slice(0, -1), // remove last quarter because it's not finished yet
     []
   );
 
