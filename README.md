@@ -1,3 +1,8 @@
+# App hosted here:
+
+### https://koia-coding-task.vercel.app/
+
+
 # Welcome to KOIA Soft FE Tech Interview
 
 Thank you for your interest in our job offer. We would like to make the whole process go smooth, easy and even for all the candidates and that is
@@ -23,6 +28,3 @@ Please, make your own **git repository** and this repository as a **remote**. Wh
 
 KOIA Soft
 
-# HOSTED HERE
-
-## https://koia-coding-task.vercel.app/
